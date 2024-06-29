@@ -68,18 +68,7 @@ body {
 
 .dropdown {
     display: inline-block;
-}
-
-.dropdown .content {
-    background-color: hsl(0, 0%, 95%);
-    position: absolute;
-    display: none;
-    max-height: 70vh;
-    width: 11vw;
-    scrollbar-color: grey;
-    scrollbar-width: 5px;
-    overflow-y: scroll;
-    overflow-x: hidden;
+    position: relative;
 }
 
 .dropdown .content1 {
@@ -90,29 +79,21 @@ body {
     width: 11vw;
     scrollbar-color: grey;
     scrollbar-width: 5px;
-}
-
-.dropdown:hover .content1 {
-    display: block;
+    overflow-x: hidden;
+    z-index: 1;
 }
 
 .dropdown a {
     display: block;
     text-decoration: none;
     padding: 10px 15px;
-    margin: 0 200px 0 0;
     color: black;
-    /* overflow: hidden;
-    text-wrap: nowrap; */
 }
 
 .dropdown div {
     cursor: pointer;
 }
 
-.dropdown:hover .content {
-    display: block;
-}
 
 .banner {
     height: 370.7px;
