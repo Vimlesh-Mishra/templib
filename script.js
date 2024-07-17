@@ -32,7 +32,6 @@ window.onscroll = function () { myFunction() };
 
 // Get the navbar
 var navbar = document.getElementById("navbar");
-
 // Get the offset position of the navbar
 var sticky = navbar.offsetTop;
 
@@ -44,3 +43,10 @@ function myFunction() {
         navbar.classList.remove("sticky");
     }
 }
+
+const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const container1 = document.getElementsByClassName('container1')[0]
+
+toggleButton.addEventListener('click', () => {
+    container1.classList.toggle('active')
+})

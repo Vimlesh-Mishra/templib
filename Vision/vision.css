@@ -10,8 +10,8 @@ body {
 
 .whitecolor {
     color: white !important;
-    margin-top: 1.5rem;
 }
+
 
 .navbar {
     display: flex;
@@ -36,10 +36,13 @@ body {
 
 .dmcelogo {
     margin-top: 4px;
-    width: 10vh;
-    height: 11vh;
+    height: 65.75px;
+    width: 65px;
 }
 
+.dmcetext {
+    line-height: 0.2rem;
+}
 
 .dmcetext>h1 {
     color: white !important;
@@ -121,74 +124,49 @@ body {
     cursor: pointer;
 }
 
-.active {
-    border-bottom: 2px solid white;
+.contain {
+    width: 80%;
+    margin: 1rem auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-.main {
-    margin: 50px 0;
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    align-items: center;
-    flex-direction: column;
+.contain section {
+    margin: 20px 0;
 }
 
-/* pdf section */
-#pdf {
-    width: 640px;
-    height: 500px;
+.contain h1 {
+    color: #fac402 !important;
 }
 
-/* about section */
-#about {
-    width: 80vw;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.256);
-    padding: 2rem;
+.contain p {
+    font-size: 1.1em;
+    line-height: 1.6em;
 }
 
-/* links and video section */
-#linksvideos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10rem;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.273);
-    padding: 1rem;
+ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-/* ndli activities */
-#ndli-activities {
-    display: flex;
-    flex-direction: column;
+ul li {
+    font-size: 1.1em;
+    line-height: 1.6em;
+    margin: 10px 0;
+    padding-left: 20px;
+    position: relative;
 }
 
-#link {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    flex: 1;
-    padding: 5px;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.256);
+ul li:before {
+    content: "\2022";
+    color: #0056b3;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
 }
 
-#link a {
-    text-decoration: none;
-}
-
-#link a:hover {
-    text-decoration: underline;
-}
-
-#video {
-    flex: 1;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.256);
-}
-
-#videoframe {
-    width: 472px;
-    height: 315px;
-}
 
 footer {
     background-color: rgb(28, 29, 54);

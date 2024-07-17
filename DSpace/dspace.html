@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DMCE Central Library</title>
-    <link rel="stylesheet" href="print_journal.css" />
+    <link rel="stylesheet" href="dspace.css" />
     <link
       rel="shortcut icon"
       href="https://www.dmce.ac.in/assets/img/dmce.png"
@@ -12,6 +12,7 @@
     />
   </head>
   <body>
+    <!-- navbar -->
     <nav class="navbar">
       <div class="container">
         <a href="index.html" class="navbar-brand">
@@ -22,26 +23,27 @@
               class="dmcelogo"
             />
             <div class="dmcetext">
-              <p style="color: #8b92bb !important; font-size: 18px">
-                Nagar Yuwak Shikshan Sanstha, &nbsp;Airoli
-              </p>
+              <p>Nagar Yuwak Shikshan Sanstha, &nbsp;Airoli</p>
               <h1>Datta Meghe College of Engineering</h1>
               <h1 class="whitecolor">Central Library</h1>
             </div>
           </div>
         </a>
       </div>
+      <div class="toggle-button">☰</div>
     </nav>
     <section
-      class="computerspreadnav computerspreadnav1"
+      class="computerspreadnav"
       id="navbar"
       style="border-top: 1px solid #2a2b51 !important"
     >
       <div class="container1">
         <div class="computerspreadnavcontainer">
-          <div><a href="../index.html" class="navheads">Homepage</a></div>
           <div>
-            <a href="" class="navheads">DELNET:Devopling Library Network</a>
+            <a class="navheads" href="../index.html">Home</a>
+          </div>
+          <div>
+            <a class="navheads" href="">DELNET:Devopling Library Network</a>
           </div>
           <div><a href="" class="navheads">Digital Library</a></div>
           <div><a href="" class="navheads">NDLI</a></div>
@@ -53,12 +55,12 @@
           <div class="dropdown">
             <div class="dropdown-toggle">Journals ⮟</div>
             <div class="content1">
-              <a href="">Science Direct</a>
+              <a href="./DirectScience/directScience.html">Science Direct</a>
               <a href="">Web of Science Open Access Journal</a>
             </div>
           </div>
           <div>
-            <a href="print_journal.html" class="active navheads"
+            <a href="./Print journal/print_journal.html" class="navheads"
               >Print Journals</a
             >
           </div>
@@ -66,32 +68,60 @@
             <div class="dropdown-toggle">More ⮟</div>
             <div class="content1">
               <a href="/Vision/vision.html">Vision and Mission</a>
-              <a href="">Book Location Guide</a>
-              <a href="">Library Services</a>
-              <a href="">D Space Institutional Reposatory</a>
+              <a href="./Book Location Guide/location.html"
+                >Book Location Guide</a
+              >
+              <a href="/Library_services/libservice.html">Library Services</a>
+              <a href="">D Space Institutional Repository</a>
               <a href="">Library Advisory Committee</a>
-              <a href="">Library Automation</a>
-              <a href="">Library Collection Development Policy</a>
-              <a href="">Membership - Institutional Membership</a>
-              <a href="">Our Team</a>
+              <a href="./Library Automation/LibraryAutomation.html"
+                >Library Automation</a
+              >
+              <a
+                href="https://docs.google.com/document/d/13HL2S4xUSVoBgTJY9lcrOB82r6TPZ00Sk3Gss3g4UVQ/edit"
+                target="_blank"
+                >Library Collection Development Policy</a
+              >
+              <a
+                href="https://docs.google.com/document/d/1M4TnR5Z5-Yy2KSp_PFP4-wvrAuj-hHIBiSs4LXGjz_E/edit"
+                target="_blank"
+                >Membership - Institutional Membership</a
+              >
+              <a href="./Our team/our_team.html">Our Team</a>
               <a href="">Plagiarism and Citation</a>
               <a href="">Ranking of journal-Impact Factor</a>
-              <a href="">Reach to us-contact us</a>
-              <a href="">Suggest us-Feedback form</a>
-              <a href="">Useful Links</a>
-              <a href="">Online Resources </a>
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSeBL_55bUMdVQ_Io2VNHfQnU4ROGcMqZyUK0ka_6aPvKG4-3Q/viewform"
+                >Suggest us-Feedback form</a
+              >
+              <a href="./Useful Links/usefullinks.html">Useful Links</a>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <div class="main">
-      <iframe
-        src="https://docs.google.com/document/d/1rMYg0UaMkq20UIFvY0g0Hg44lBNJPpPkpqoT4vvn7Yc/edit"
-        id="pdf"
-        allow="autoplay"
-      ></iframe>
+
+    <div class="contain">
+      <img src="../img/dspace-logo.png" alt="" />
+      <div>
+        <h1 id="dshead">D Space Institutional Repository</h1>
+        <h1><a href="" target="_blank">http://localhost:8080/jspui/</a></h1>
+        <p>
+          DMCE Institutional Repository is a set of services that Central
+          library of institute offers to members of this community for
+          management and dissemination of digital material generated by
+          institute and community member.It includes Staff Publication, Students
+          Publication, Project Reports, Syllabus, Question Paper Bank, E
+          courseware, Digital assets generated by community members.
+        </p>
+        <p>
+          The main objective for having Institutional Repository is to provide
+          open access to institutional research output by self-archiving in an
+          open access repository .
+        </p>
+      </div>
     </div>
+
     <footer>
       <div class="container footercontent">
         <div class="resources footercard">
